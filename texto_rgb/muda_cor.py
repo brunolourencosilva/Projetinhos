@@ -6,7 +6,7 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 # Solicita um texto do usuário
-texto = input('Digite uma frase: ')
+texto = input('Digite uma frase : ')
 
 # Lista de cores disponíveis
 cores = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.CYAN, Fore.MAGENTA, Fore.WHITE]
