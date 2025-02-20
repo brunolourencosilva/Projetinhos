@@ -1,146 +1,104 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0; padding: 0;
-    background-color: #e6e6e6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
 }
 
 header {
-    background-color: #4b8049;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    text-align: center;
-    font-weight: bold;
+  background-color: #4b8049;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
 }
 
 header h1 {
-    font-family: 'Italiana';
-    font-size: 3.5em;
+  font-family: "Italiana";
+  font-size: 3.5em;
 }
 
-
 nav {
-    text-align: center;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.363);
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.363);
 }
 
 nav a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #d8d8d8;
+  background-color: #d8d8d8;
 }
 
 main {
-    margin: 20px;
+  margin: 20px;
 }
 
 section {
-    text-align: center;
-    background: white;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
+  text-align: center;
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
 }
-
 
 footer {
-    background-color: #a33636;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    margin-top: 20px;
-}
-.font-1{
-    font-family: 'Italiana';
-    font-size: 2.5em;
+  background-color: #a33636;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
 }
 
-/* Ajustando as imagens */
-.imagem {
+
+/*========================== INICIO ==========================  */
+
+.imagem-left {
+    padding: 20px;
     float: left;
-    margin: 33px;
-    width: 256px;
+    margin: 0px;
+    width: 300px;
     height: auto;
 }
 
-.container{
-    float: right;
-    margin: 33px;
-    width: 256px;
-    height: auto;
-}
-/*==========================INICIO==========================  */
-
-/* Ajustando o início */
 #Inicio {
-    text-align: right;
-    margin: auto;
-    max-width: 1000px;
+    margin: 20;
     padding: 20px;
     border-radius: 10px;
 }
 
+.font-1 {
+  font-family: "Italiana";
+  font-size: 2.5em;
+}
+
 /*==========================VOLTAR PRO TOPO==========================  */
 .btn-voltar {
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px 15px;
-    background-color: #c9c9c9;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border-radius: 5px;
-    width: 150px;
-    font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 15px;
+  background-color: #c9c9c9;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  width: 150px;
+  font-weight: bold;
 }
 
 .btn-voltar:hover {
-    background-color: #aaaaaa;
-}
-
-/*==========================RECEITAS==========================  */
-.texto-receita{
-    text-align: left;
-    max-width: 600px;
-    padding: 20px;
-}
-
-.imagem-receita{
-    float: right;
-    margin: 20px;
-    width: 390px;
-    height: auto;
-}
-
-/*==========================SOBRE NÓS==========================  */
-#Sobre_Nós{
-    text-align: left;
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-/*==========================INFORMAÇÕES==========================  */
-#Informacoes {
-    text-align: left;
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
-.clear{
-    clear: both;
+  background-color: #aaaaaa;
 }
