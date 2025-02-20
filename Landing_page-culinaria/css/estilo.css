@@ -49,6 +49,15 @@ main {
 }
 
 section {
+  display: flex;
+  text-align: center;
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+article{
   text-align: center;
   background: white;
   padding: 15px;
@@ -67,15 +76,19 @@ footer {
 
 /*========================== INICIO ==========================  */
 
-.imagem-left {
-    padding: 20px;
-    float: left;
-    margin: 0px;
-    width: 300px;
-    height: auto;
+.imagem{
+  width: 150px;
+  height: auto;
+}
+
+.imagem-receita{
+  display: flex;
+  width: 150px;
+  height: auto;
 }
 
 #Inicio {
+    text-align: center;
     margin: 20;
     padding: 20px;
     border-radius: 10px;
