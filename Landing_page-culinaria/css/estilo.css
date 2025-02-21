@@ -20,6 +20,8 @@ header {
 }
 
 header h1 {
+  width: 256px;
+  height: auto;
   font-family: "Italiana";
   font-size: 3.5em;
 }
@@ -76,22 +78,15 @@ article{
 }
 
 
-footer {
-  background-color: #a33636;
-  color: white;
-  text-align: center;
-  padding: 30px;
-  margin-top: 20px;
-}
 
 
 .titulos {
   justify-content: center;
-    text-align: center;
-    margin: 20;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #d502ff00;
+  text-align: center;
+  margin: 20;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #d502ff00;
 }
 
 .imagem{
@@ -141,4 +136,11 @@ footer {
   padding: 20px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #a33636;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
 }
