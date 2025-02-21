@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #4b8049;
+  background-color: #ac4f4f;
   color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
@@ -57,13 +57,24 @@ section {
   border-radius: 5px;
 }
 
+section h2{
+  justify-content: center;
+  text-align: center;
+  margin: 20;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 article{
   text-align: center;
   background: white;
   padding: 15px;
-  margin: 10px 0;
+  margin: 42.1px;
+  border: 5px solid #d502ff;
   border-radius: 5px;
+  box-shadow: #000000;
 }
+
 
 footer {
   background-color: #a33636;
@@ -74,25 +85,29 @@ footer {
 }
 
 
-/*========================== INICIO ==========================  */
-
-.imagem{
-  width: 150px;
-  height: auto;
-}
-
-.imagem-receita{
-  display: flex;
-  width: 150px;
-  height: auto;
-}
-
-#Inicio {
+.titulos {
+  justify-content: center;
     text-align: center;
     margin: 20;
     padding: 20px;
     border-radius: 10px;
+    background-color: #d502ff00;
 }
+
+.imagem{
+  float: center;
+  margin: 60px;
+  width: 256px;
+  height: auto;
+}
+
+.imagem-receita{
+  margin: 10px;
+  width: 200px;
+  height: auto;
+}
+/*========================== INICIO ==========================  */
+
 
 .font-1 {
   font-family: "Italiana";
@@ -114,4 +129,16 @@ footer {
 
 .btn-voltar:hover {
   background-color: #aaaaaa;
+}
+
+.box-fixo{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+  background-color: #4b8049;;
+  color: #4b8049;
+  padding: 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
