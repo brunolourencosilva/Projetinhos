@@ -3,8 +3,6 @@ export {prinTabela} from "../modulos/dadosManipulacao.js"
 
 export function calcularMedia() {
     botaoEvento('adicionarAluno', () => {
-        const nome = document.getElementById('nomeAluno').value;
-        const frequencia = parseFloat(document.getElementById('frequenciaAluno').value);
         const nota1 = parseFloat(document.getElementById('nota1Bim').value);
         const nota2 = parseFloat(document.getElementById('nota2Bim').value);
         const nota3 = parseFloat(document.getElementById('nota3Bim').value);
