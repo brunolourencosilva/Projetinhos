@@ -1,59 +1,58 @@
-// Importa duas funções utilitárias de outro arquivo: uma para adicionar eventos em botões e outra para exibir resultados
 import { botaoEvento, printResultado } from "../utils/utils.js";
+import { ativarBotaoApagar, ativarBotaoAlterar } from "./tabelaManipulacao.js";
+import { alterarDadosCompletos } from "./dadosManipulacao.js";
 
-// Função principal que calcula a média das notas inseridas
 export function calcularMedia() {
-
-    // Adiciona um evento ao botão com ID 'adicionarAluno'
     botaoEvento('adicionarAluno', () => {
+        const nome = document.getElementById('nomeAluno').value;
+        const frequencia = parseFloat(document.getElementById('frequenciaAluno').value);
 
-        // Captura o valor do input com ID 'notaAluno' (esperado em formato: 7,8,9 etc.)
-        const notasTexto1 = document.getElementById('nota1Bim').value;
-        const notasTexto2 = document.getElementById('nota1Bim').value;
-        const notasTexto3 = document.getElementById('nota1Bim').value;
-        const notasTexto4 = document.getElementById('nota1Bim').value;
+        const nota1 = parseFloat(document.getElementById('nota1Bim').value);
+        const nota2 = parseFloat(document.getElementById('nota2Bim').value);
+        const nota3 = parseFloat(document.getElementById('nota3Bim').value);
+        const nota4 = parseFloat(document.getElementById('nota4Bim').value);
 
+        const notas = [nota1, nota2, nota3, nota4];
 
-        // Divide o texto por vírgulas e remove espaços em branco de cada item
-        const valorInput1 = notasTexto1.map(nota => nota.trim());
-        const valorInput2 = notasTexto1.map(nota => nota.trim());
-        const valorInput3 = notasTexto1.map(nota => nota.trim());
-        const valorInput4 = notasTexto1.map(nota => nota.trim());
-
-        // Converte cada item do array para número de ponto flutuante
-        const numeros1 = valorInput1.map(nota => parseFloat(nota));
-        const numeros2 = valorInput2.map(nota => parseFloat(nota));
-        const numeros3 = valorInput3.map(nota => parseFloat(nota));
-        const numeros4 = valorInput4.map(nota => parseFloat(nota));
-
-        // Verifica se o campo está vazio ou se algum valor digitado não é um número válido
-        if (!notasTexto1 || !notasTexto2 || !notasTexto3 || !notasTexto4 || numeros1.some(isNaN)) {
-            printResultado('erro', 'Por favor, digite notas válidas separadas por vírgula.');
-            return; // Interrompe a execução se houver erro
-        }
-        else{
-            printResultado('erro', 'Notas validas');
+        if (!nome || isNaN(frequencia) || notas.some(isNaN)) {
+            printResultado('erro', 'Por favor, preencha todos os campos corretamente.');
+            return;
         }
 
-        // Calcula a média somando todos os valores e dividindo pela quantidade de notas
-        const media = numeros.reduce((a, b) => a + b, 0) / numeros.length;
+        const media = notas.reduce((soma, nota) => soma + nota, 0) / notas.length;
 
-        // Exibe o resultado da média e os dados em uma tabela HTML dentro do elemento com ID 'tableBody'
-        printResultado('tableBody', `
-            <tbody>
-              <tr>
-                <th></th>
-                <th>${numeros.join(', ')}</th> <!-- Mostra as notas separadas por vírgula -->
-                <th></th>
-                <th>${media.toFixed(2)}</th> <!-- Mostra a média com duas casas decimais -->
-                <th></th>
-                <th></th>
-                <th>
-                  <button type="button" id="apagadarDados">Apagar</button> <!-- Botão de apagar -->
-                  <button type="button" id="alterarDados">Alterar</button> <!-- Botão de alterar -->
-                </th>
-              </tr>
-            </tbody>
-        `);
+        // Define status inicial com base nos dados inseridos
+        let status = "Pendente";
+        if (media >= 7 && frequencia >= 75) status = "Aprovado";
+        else if (media < 7 && frequencia >= 75) status = "Reprovado por nota";
+        else if (media >= 7 && frequencia < 75) status = "Reprovado por frequência";
+        else status = "Reprovado";
+
+        // Adiciona linha à tabela
+        const tabela = document.getElementById('tableBody');
+        tabela.innerHTML += `
+            <tr>
+                <td>${nome}</td>
+                <td>${notas.join(', ')}</td>
+                <td>${frequencia}%</td>
+                <td>${media.toFixed(2)}</td>x
+                <td>${notas.reduce((a, b) => a + b, 0)}</td> <!-- Total das notas -->
+                <td>${status}</td>
+                <td>
+                    <button type="button" class="apagarDados">Apagar</button>
+                    <button type="button" class="alterarDados">Alterar</button>
+                </td>
+            </tr>
+        `;
+
+        // Limpa os campos após adicionar
+        ['nomeAluno', 'frequenciaAluno', 'nota1Bim', 'nota2Bim', 'nota3Bim', 'nota4Bim'].forEach(id => {
+            document.getElementById(id).value = '';
+        });
+
+        // Ativa os botões da linha recém-adicionada
+        ativarBotaoApagar();
+        ativarBotaoAlterar(alterarDadosCompletos);
     });
 }
+
