@@ -1,22 +1,18 @@
-// Função para ativar os botões "Apagar" que removem a linha da tabela
-export function ativarBotaoApagar() {
-    document.querySelectorAll('.apagarDados').forEach(botao => {
-        botao.addEventListener('click', () => {
-            const linha = botao.closest('tr');
-            linha.remove();
-        });
-    });
+import { calcularMedia} from "./Media.js";
+
+export function printTabela(media){
+        printResultado('tableBody',`
+          <tbody>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>${calcularMedia(media)}</th>
+              <th></th>
+              <th></th>
+              <th><button type="button" id="apagarDados">apagar</button>
+                  <button type="button" id="alterarDados">alterar</button>
+              </th>
+            </tr>
+          </body>`);
 }
-
-export function ativarBotaoAlterar(callbackAlterar) {
-    document.querySelectorAll('.alterarDados').forEach(botao => {
-        botao.addEventListener('click', () => {
-            const linha = botao.closest('tr');
-            if (typeof callbackAlterar === 'function') {
-                callbackAlterar(linha);
-            }
-        });
-    });
-}
-
-

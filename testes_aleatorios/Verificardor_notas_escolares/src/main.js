@@ -1,7 +1,8 @@
-import { alterarDadosCompletos } from "./modulos/dadosManipulacao.js";
 import { calcularMedia } from "./modulos/Media.js";
+import { printTabela } from "./modulos/tabelaManipulacao.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-    calcularMedia();
-    ativarBotaoAlterar(alterarDadosCompletos);
+    printTabela();
+    calcularMedia(); // essa função já cuida do fluxo de adicionar aluno
+
 });
