@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #222;
+}
+
+a{
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #0f0;
+}
+
+img{
+    width: 20px;
+    height: auto;
+}
+
+#imagem-surpresa {
+    width: 0px;
+    height: auto;
+    transition: width 5s ease; /* animação suave de 2 segundos */
+}
+
