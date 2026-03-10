@@ -1,0 +1,1 @@
+Aqui ficara um readme muito util sobre o jogo :D
