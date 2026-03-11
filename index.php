@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,35 +14,42 @@
 
 <body>
 
-<main class="menu">
+<div class="container">
 
-    <div class="titulo">
-        <h1>Zona de Exclusão</h1>
-        <p>Um RPG minimalista</p>
-    </div>
+    <!-- Moldura decorativa -->
+    <div class="moldura"></div>
 
-    <div class="menu-box">
+    <main class="menu">
 
-        <h2>Menu Principal</h2>
+        <!-- Título -->
+        <div class="titulo">
+            <h1>Zona de Exclusão</h1>
+            <p>Um RPG minimalista</p>
+        </div>
 
-        <form action="inicial.php" method="get">
+        <!-- Caixa terminal -->
+        <div class="menu-box">
 
-            <input 
-            type="text"
-            name="personagem"
-            placeholder="Nome do personagem"
-            required
-            >
+            <div class="terminal-box">
 
-            <button type="submit">
-            COMEÇAR
-            </button>
+                <input
+                class="terminal-input"
+                type="text"
+                name="personagem"
+                placeholder="Nome do personagem"
+                maxlength="20"
+                required
+                >
 
-        </form>
+                <span class="cursor"></span>
 
-    </div>
+            </div>
 
-</main>
+        </div>
+
+    </main>
+
+</div>
 
 </body>
 </html>
