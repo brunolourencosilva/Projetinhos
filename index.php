@@ -30,22 +30,36 @@
         <!-- Caixa terminal -->
         <div class="menu-box">
 
-            <div class="terminal-box">
-
-                <input
-                class="terminal-input"
-                type="text"
-                name="personagem"
-                placeholder="Nome do personagem"
-                maxlength="20"
-                required
-                >
-
-                <span class="cursor"></span>
-
+            <!-- BOTÃO -->
+            <div id="areaBotao">
+                <button id="btnComecar" type="button">Começar Aventura</button>
             </div>
 
+            <!-- FORM ESCONDIDO -->
+            <form action="inicial.php" method="GET" id="formPersonagem" style="display:none;">
+
+                <div class="terminal-box">
+
+                    <span class="cursor"></span>
+
+                    <input
+                    class="terminal-input"
+                    type="text"
+                    name="personagem"
+                    placeholder="Nome do personagem"
+                    maxlength="20"
+                    required
+                    >
+
+                </div>
+
+                <button type="submit">Entrar</button>
+
+            </form>
+
         </div>
+
+        <script src="public/js/main-menu/script.js"></script>
 
     </main>
 
