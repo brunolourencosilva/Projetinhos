@@ -8,18 +8,18 @@
 
 <title>Zona de Exclusão</title>
 
-<link rel="stylesheet" href="public/css/tela_main_menu.css">
+<link rel="stylesheet" href="public/css/estilo.css">
 
 </head>
 
 <body>
 
-<div class="container">
+<div class="container_menu_main">
 
     <!-- Moldura decorativa -->
     <div class="moldura"></div>
 
-    <main class="menu">
+    <main class="menu_main">
 
         <!-- Título -->
         <div class="titulo">
@@ -28,38 +28,15 @@
         </div>
 
         <!-- Caixa terminal -->
-        <div class="menu-box">
+        <div>
 
             <!-- BOTÃO -->
             <div id="areaBotao">
-                <button id="btnComecar" type="button">Começar Aventura</button>
+                <a id="btnMudarPagina" href="criar_personagem.php">Começar Aventura</a>
             </div>
-
-            <!-- FORM ESCONDIDO -->
-            <form action="inicial.php" method="GET" id="formPersonagem" style="display:none;">
-
-                <div class="terminal-box">
-
-                    <span class="cursor"></span>
-
-                    <input
-                    class="terminal-input"
-                    type="text"
-                    name="personagem"
-                    placeholder="Nome do personagem"
-                    maxlength="20"
-                    required
-                    >
-
-                </div>
-
-                <button type="submit">Entrar</button>
-
-            </form>
-
         </div>
 
-        <script src="public/js/main-menu/script.js"></script>
+        <!-- <script src="public/js/main-menu/script.js"></script> -->
 
     </main>
 
