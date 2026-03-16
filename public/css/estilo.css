@@ -130,7 +130,7 @@ inset 0 0 5px #00ff88;
 
 .menu-info-character{
     text-align: center;
-    align-items:center;
+    align-items: center;
     height: 60vh;
     width: 100vh;
     padding-left: 10vh;
@@ -140,8 +140,8 @@ inset 0 0 5px #00ff88;
 
     text-align: center;
     align-items: center;
-    height: 50vh;
-    width: 40vh;
+    height: auto;
+    width: 30vh;
     
     color:#00ff88;
 
