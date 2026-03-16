@@ -14,29 +14,30 @@
 
 <body>
 
-<div class="container_menu_main">
+<div class="container_main">
 
     <!-- Moldura decorativa -->
     <div class="moldura"></div>
 
     <main class="menu_main">
 
-        <!-- Título -->
-        <div class="titulo">
-            <h1>Zona de Exclusão</h1>
-            <p>Um RPG minimalista</p>
-        </div>
-
-        <!-- Caixa terminal -->
-        <div>
-
-            <!-- BOTÃO -->
-            <div id="areaBotao">
-                <a id="btnMudarPagina" href="criar_personagem.php">Começar Aventura</a>
+        <div class="container_index">
+            <!-- Título -->
+            <div class="titulo">
+                <h1>Zona de Exclusão</h1>
+                <p>Um RPG minimalista</p>
             </div>
-        </div>
 
-        <!-- <script src="public/js/main-menu/script.js"></script> -->
+            <!-- Caixa terminal -->
+            <div>
+
+                <!-- BOTÃO -->
+                <div class="areaBotao">
+                    <a id="btnMudarPagina" href="criar_personagem_hab.php">Começar Aventura</a>
+                </div>
+            </div>
+
+        </div>
 
     </main>
 
