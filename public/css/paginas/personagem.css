@@ -18,7 +18,7 @@
 
 .box-nome{
     height:50px;
-    width:300px;
+    width:auto;
 
     color:var(--cor-principal);
 
