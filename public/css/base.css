@@ -1,0 +1,56 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Corpo */
+body{
+    height:100vh;
+    background:var(--bg-principal);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-family:var(--fonte-terminal);
+}
+
+/* Textos */
+h1{
+    color:var(--cor-principal);
+    font-size:50px;
+
+    text-shadow:
+    0 0 2px var(--cor-principal),
+    0 0 5px var(--cor-principal),
+    0 0 10px var(--cor-principal);
+}
+
+p{
+    color:var(--cor-principal);
+    opacity:0.7;
+
+    margin-bottom:40px;
+
+    text-shadow:
+    0 0 2px var(--cor-principal),
+    0 0 5px var(--cor-principal);
+}
+
+/* Botão base */
+button{
+    background:none;
+    border:none;
+    color:var(--cor-principal);
+    font-family:var(--fonte-terminal);
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    text-shadow:
+    0 0 2px var(--cor-principal),
+    0 0 6px var(--cor-principal);
+}

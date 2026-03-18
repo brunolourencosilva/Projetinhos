@@ -1,0 +1,22 @@
+.titulo{}
+
+.conteinerMenu{
+    display:inline-block;
+    background:var(--bg-secundario);
+
+    padding:30px;
+    width:300px;
+
+    color:var(--cor-principal);
+
+    border:2px solid var(--cor-principal);
+
+    box-shadow:
+    0 0 5px var(--cor-principal),
+    0 0 10px var(--cor-principal),
+    inset 0 0 5px var(--cor-principal);
+}
+
+.areaBotao a:hover{
+    background:#27ae60;
+}

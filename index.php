@@ -8,7 +8,12 @@
 
 <title>Zona de Exclusão</title>
 
-<link rel="stylesheet" href="public/css/estilo.css">
+<link rel="stylesheet" href="public/css/config_global.css">
+<link rel="stylesheet" href="public/css/base.css">
+<link rel="stylesheet" href="public/css/layout.css">
+<link rel="stylesheet" href="public/css/components.css">
+<link rel="stylesheet" href="public/css/paginas/menu.css">
+<link rel="stylesheet" href="public/css/paginas/personagem.css">
 
 </head>
 
@@ -16,26 +21,23 @@
 
 <div class="container_main">
 
-    <!-- Moldura decorativa -->
+    <!-- Moldura -->
     <div class="moldura"></div>
 
     <main class="menu_main">
 
         <div class="container_index">
+
             <!-- Título -->
             <div class="titulo">
                 <h1>Zona de Exclusão</h1>
                 <p>Um RPG minimalista</p>
             </div>
 
-            <!-- Caixa terminal -->
-            <div>
-
-                <!-- BOTÃO -->
-                <div class="areaBotao">
-                    <a id="btnMudarPagina" href="criar_personagem_hab.php">Começar Aventura</a>
-                </div>
-            </div>
+            <!-- Botão -->
+            <a class="btn-main" id="btnMudarPagina" href="criar_personagem_hab.php">
+                Começar Aventura
+            </a>
 
         </div>
 

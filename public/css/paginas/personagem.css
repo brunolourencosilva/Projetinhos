@@ -1,0 +1,51 @@
+.box-caracteristicas{
+    width:250px;
+    padding:10px;
+
+    color:var(--cor-principal);
+
+    text-shadow: 
+    0 0 2px var(--cor-principal),
+    0 0 5px var(--cor-principal);
+
+    border:2px solid var(--cor-principal);
+
+    box-shadow:
+    0 0 5px var(--cor-principal),
+    0 0 10px var(--cor-principal),
+    inset 0 0 5px var(--cor-principal);
+}
+
+.box-nome{
+    height:50px;
+    width:300px;
+
+    color:var(--cor-principal);
+
+    text-shadow:
+    0 0 2px var(--cor-principal),
+    0 0 5px var(--cor-principal);
+}
+
+.linha-caract{
+    display:flex;
+    align-items:center;
+}
+
+.caract-box{
+    font-family:monospace;
+    color:var(--cor-principal);
+}
+
+.ptsCaracterizacao{
+    width:25px;
+    text-align:center;
+}
+
+#pontosRestantes{
+    margin-bottom:10px;
+}
+
+#formPersonagem{
+    display:inline-block;
+}

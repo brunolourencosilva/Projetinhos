@@ -8,7 +8,12 @@
 
 <title>Zona de Exclusão</title>
 
-<link rel="stylesheet" href="public/css/estilo.css">
+<link rel="stylesheet" href="public/css/config_global.css">
+<link rel="stylesheet" href="public/css/base.css">
+<link rel="stylesheet" href="public/css/layout.css">
+<link rel="stylesheet" href="public/css/components.css">
+<link rel="stylesheet" href="public/css/paginas/menu.css">
+<link rel="stylesheet" href="public/css/paginas/personagem.css">
 
 </head>
 
@@ -16,26 +21,23 @@
 
 <div class="container_main">
 
-    <!-- Moldura decorativa -->
     <div class="moldura"></div>
 
     <main class="menu_main">
 
-        <!-- Título -->
         <div class="titulo">
             <h1>Criação do Personagem</h1>
         </div>
 
-        <!-- FORMULÁRIO ÚNICO -->
         <form action="inicial.php" method="GET" id="formPersonagem">
+
             <div class="menu-info-character">
 
+                <!-- NOME -->
                 <div class="box-nome">
-                    <!-- Nome do personagem -->
-                    
-                    <div class="terminal-box">
+                    <div class="terminal-box borda-neon">
                         <span class="cursor"></span>
-                        
+
                         <input 
                         class="terminal-input"
                         type="text"
@@ -43,96 +45,79 @@
                         placeholder="Nome do personagem"
                         maxlength="20"
                         required>
-                        
                     </div>
                 </div>
 
-
-                <div class="box-caracteristicas">
+                <!-- ATRIBUTOS -->
+                <div class="box-caracteristicas borda-neon">
 
                     <h2>Caracterização</h2>
 
                     <p id="pontosRestantes">21 Pontos restantes</p>
 
+                    <!-- FORÇA -->
                     <div class="linha-caract">
-
-                        <button type="button" class="diminuirPTS"><</button>
+                        <button type="button" class="btn btn-pts">‹</button>
                         <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="aumentarPTS">></button>
-
+                        <button type="button" class="btn btn-pts">›</button>
                         <span class="nome-caract">Força</span>
-
                     </div>
 
+                    <!-- INT -->
                     <div class="linha-caract">
-
-                        <button type="button" class="diminuirPTS"><</button>
+                        <button type="button" class="btn btn-pts">‹</button>
                         <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="aumentarPTS">></button>
-
-                        <span class="nome-caract">Inteligencia</span>
-
+                        <button type="button" class="btn btn-pts">›</button>
+                        <span class="nome-caract">Inteligência</span>
                     </div>
 
+                    <!-- PERCEPÇÃO -->
                     <div class="linha-caract">
-
-                        <button type="button" class="diminuirPTS"><</button>
+                        <button type="button" class="btn btn-pts">‹</button>
                         <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="aumentarPTS">></button>
-
+                        <button type="button" class="btn btn-pts">›</button>
                         <span class="nome-caract">Percepção</span>
-
                     </div>
 
+                    <!-- AGILIDADE -->
                     <div class="linha-caract">
-
-                        <button type="button" class="diminuirPTS"><</button>
+                        <button type="button" class="btn btn-pts">‹</button>
                         <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="aumentarPTS">></button>
-
+                        <button type="button" class="btn btn-pts">›</button>
                         <span class="nome-caract">Agilidade</span>
-
                     </div>
 
+                    <!-- CARISMA -->
                     <div class="linha-caract">
-
-                        <button type="button" class="diminuirPTS"><</button>
+                        <button type="button" class="btn btn-pts">‹</button>
                         <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="aumentarPTS">></button>
-
+                        <button type="button" class="btn btn-pts">›</button>
                         <span class="nome-caract">Carisma</span>
-
                     </div>
 
+                    <!-- DURABILIDADE -->
                     <div class="linha-caract">
-
-                        <button type="button" class="diminuirPTS"><</button>
+                        <button type="button" class="btn btn-pts">‹</button>
                         <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="aumentarPTS">></button>
-
+                        <button type="button" class="btn btn-pts">›</button>
                         <span class="nome-caract">Durabilidade</span>
-
                     </div>
 
+                    <!-- SORTE -->
                     <div class="linha-caract">
-
-                        <button type="button" class="diminuirPTS"><</button>
+                        <button type="button" class="btn btn-pts">‹</button>
                         <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="aumentarPTS">></button>
-
+                        <button type="button" class="btn btn-pts">›</button>
                         <span class="nome-caract">Sorte</span>
-
                     </div>
 
                 </div>
             </div>
 
-            <!-- BOTÃO DE INICIAR -->
-
-            <div class="areaBotao">
-                <a id="btnMudarPagina" href="criar_personagem_skill.php">Continuar</a>
-            </div>
-
+            <!-- BOTÃO CORRETO -->
+            <button type="submit" class="btn-main">
+                Continuar
+            </button>
 
         </form>
 
