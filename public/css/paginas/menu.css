@@ -1,4 +1,15 @@
-.titulo{}
+.titulo{
+    color:var(--cor-principal);
+    font-size:50px;
+
+    text-shadow:
+    0 0 2px var(--cor-principal),
+    0 0 5px var(--cor-principal),
+    0 0 10px var(--cor-principal);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    text-align:center;
+}
 
 .conteinerMenu{
     display:inline-block;
