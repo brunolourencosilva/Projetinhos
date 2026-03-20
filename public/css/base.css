@@ -52,7 +52,7 @@ button{
     border:none;
     color:var(--cor-principal);
     font-family:var(--fonte-terminal);
-    font-size:clamp(0.9rem, 1.2vw, 1.2rem);
+    font-size: clamp(0.9rem, 1vw, 1rem);
     cursor:pointer;
 }
 

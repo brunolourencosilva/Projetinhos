@@ -113,12 +113,12 @@
                     </div>
 
                 </div>
+                <!-- BOTÃO CORRETO -->
+                <button type="submit" class="btn-main">
+                    Continuar
+                </button>
             </div>
 
-            <!-- BOTÃO CORRETO -->
-            <button type="submit" class="btn-main">
-                Continuar
-            </button>
         </form>
 
         <script src="public/js/main-menu/script.js"></script>
