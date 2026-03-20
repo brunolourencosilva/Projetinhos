@@ -69,14 +69,23 @@
 
 /* Cursor */
 .cursor{
-    width:10px;
-    height:20px;
+    width:0.6rem;
+    height:1.2rem;
 
     background:var(--cor-principal);
 
-    margin-left:4px;
+    margin-left:0.25rem;
+
+    display:inline-block;
 
     animation:piscar 1s infinite;
+}
+
+/* ANIMAÇÃO */
+@keyframes piscar{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
 }
 
 /* Botões */
