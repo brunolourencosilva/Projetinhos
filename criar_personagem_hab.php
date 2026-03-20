@@ -25,12 +25,13 @@
 
     <main class="menu_main">
 
+        
         <div class="titulo">
             <h1>Criação do Personagem</h1>
         </div>
-
-        <form action="inicial.php" method="GET" id="formPersonagem">
-
+        
+        <form action="criar_personagem_skill.php" method="GET" id="formPersonagem">
+            <!-- ============== MENU HABILIDADES ============== -->
             <div class="menu-info-character">
 
                 <!-- NOME -->
@@ -118,7 +119,6 @@
             <button type="submit" class="btn-main">
                 Continuar
             </button>
-
         </form>
 
         <script src="public/js/main-menu/script.js"></script>
