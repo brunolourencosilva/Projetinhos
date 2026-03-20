@@ -34,10 +34,23 @@
                 <p>Um RPG minimalista</p>
             </div>
 
-            <!-- Botão -->
-            <a class="btn-main" id="btnMudarPagina" href="criar_personagem_hab.php">
-                Começar Aventura
-            </a>
+            <div class="box-opcoes">
+                <a class="btn-main" id="btnMudarPagina" href="">
+                    Continuar
+                </a>
+
+                <a class="btn-main" id="btnMudarPagina" href="criar_personagem_hab.php">
+                    Nova Aventura
+                </a>
+                
+                <a class="btn-main" id="btnMudarPagina" href="">
+                    Carregar
+                </a>
+                
+                <a class="btn-main" id="btnMudarPagina" href="opcoes.php">
+                    Configurações
+                </a>
+            </div>
 
         </div>
 

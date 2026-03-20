@@ -30,3 +30,9 @@
     max-width:800px;
     padding-left:40px;
 }
+
+.box-opcoes{
+    display: block;
+    height:30vh;
+    width:20vh;
+}
