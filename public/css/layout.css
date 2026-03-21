@@ -14,7 +14,6 @@
     height:70vh;
     text-align:center;
 }
-
 .menu_main{
     height:65vh;
     max-width:800px;
@@ -31,8 +30,33 @@
     padding-left:40px;
 }
 
+.container-menu{
+    width:100%;
+    height:auto;
+    align-items: center;
+}
+
 .box-opcoes{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5vh;
     height:30vh;
-    width:20vh;
+    width:25vh;
+}
+
+.box-opcoes a{
+    color:var(--cor-secundaria);
+
+    margin-bottom:clamp(1.5rem, 3vw, 2.5rem);
+    font-size:clamp(0.9rem, 1.5vw, 1.2rem);
+
+    text-shadow:
+    0 0 0.1rem var(--cor-principal),
+    0 0 0.3rem var(--cor-principal),
+    0 0 0.6rem var(--cor-principal);
+}
+
+.box-opcoes a:hover{
+    color: var(--cor-principal);
 }
