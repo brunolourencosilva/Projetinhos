@@ -52,9 +52,9 @@
     font-size:clamp(0.9rem, 1.5vw, 1.2rem);
 
     text-shadow:
-    0 0 0.1rem var(--cor-principal),
-    0 0 0.3rem var(--cor-principal),
-    0 0 0.6rem var(--cor-principal);
+    0 0 0.1rem var(--cor-secundaria),
+    0 0 0.3rem var(--cor-secundaria),
+    0 0 0.6rem var(--cor-secundaria);
 }
 
 .box-opcoes a:hover{
