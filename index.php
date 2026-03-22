@@ -24,7 +24,7 @@
     <!-- Moldura -->
     <div class="moldura"></div>
 
-    <main class="menu_main">
+    <main class="menu_main" > 
 
         <div class="container_index">
 
