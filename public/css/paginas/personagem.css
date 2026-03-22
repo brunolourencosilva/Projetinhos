@@ -17,16 +17,17 @@
 }
 
 .menu-info-character{
-    text-align:center;
-    height:auto;
-    width:100%;
-    max-width:800px;
+    text-align: center;
+    height: auto;
+    width: 40vh;
+    max-width: 800px;
+    margin-right: 10vh;
 }
 
 .box-nome{
     margin-bottom: 2vh;
     height:50px;
-    width:auto;
+    width: 20vh;
 
     color:var(--cor-principal);
 
@@ -55,5 +56,6 @@
 }
 
 #formPersonagem{
-    display:inline-block;
+    display:flex;
+    flex-direction: row;
 }

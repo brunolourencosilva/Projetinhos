@@ -31,7 +31,7 @@
         </div>
         
         <form action="criar_personagem_skill.php" method="GET" id="formPersonagem">
-            <!-- ============== MENU HABILIDADES ============== -->
+            <!-- ============== MENU CARACTERIZAÇÕES ============== -->
             <div class="menu-info-character">
 
                 <!-- NOME -->
@@ -113,10 +113,16 @@
                     </div>
 
                 </div>
-                <!-- BOTÃO CORRETO -->
-                <button type="submit" class="btn-main">
-                    Continuar
-                </button>
+            </div>
+
+            <div class="ocultar">
+                <div class="borda-neon icone-habilidade"></div>
+                <div class="descricao-hab">
+                    <p >
+                    Quanto maior a Força Bruta, maior o dano em combate físico e melhor
+                    o uso de armas pesadas ou ações que exigem força. Skills afetadas:
+                    Corpo a Corpo, Armas Pesadas, capacidade de carga.<p>
+                <div>
             </div>
 
         </form>

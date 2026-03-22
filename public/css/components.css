@@ -35,6 +35,17 @@
     inset 0 0 5px var(--cor-principal);
 }
 
+.icone-habilidade{
+    background-image:url("../img/icones/icone-placeholder.jpg");
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    
+    width:30vh;
+    height:30vh;
+    margin:5vh;
+}
+
 /* Menu */
 .container-menu{
     display:inline-block;
@@ -128,4 +139,13 @@
 
 .btn-main:hover{
     background:#27ae60;
+}
+
+.ocultar{
+    display: block;
+    gap:10vh;
+    text-align: left;
+    height: 70vh;
+    width: 70vh;
+    max-width: 800px;
 }
