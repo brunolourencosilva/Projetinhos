@@ -29,108 +29,110 @@
         <div class="titulo">
             <h1>Criação do Personagem</h1>
         </div>
-        
-        <form action="criar_personagem_skill.php" method="GET" id="formPersonagem">
-            <!-- ============== MENU HABILIDADES ============== -->
-            <div class="menu-info-character">
+        <div class="organizador-hab">
+            <form action="criar_personagem_skill.php" method="GET" id="formPersonagem">
+                <!-- ============== MENU HABILIDADES ============== -->
+                <div class="menu-info-character">
 
-                <div class="box-caracteristicas borda-neon">
+                    <div class="box-caracteristicas borda-neon">
 
-                    <h2>Habilidades</h2>
+                        <h2>Habilidades</h2>
 
-                    <p id="pontosRestantes">45 Pontos restantes</p>
+                        <p id="pontosRestantes">45 Pontos restantes</p>
 
-                    <!-- CORPO A CORPO -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Corpo a Corpo</span>
-                    </div>
+                        <!-- CORPO A CORPO -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Corpo a Corpo</span>
+                        </div>
 
-                    <!-- ARMAS PESADAS -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Armas Pesadas</span>
-                    </div>
+                        <!-- ARMAS PESADAS -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Armas Pesadas</span>
+                        </div>
 
-                    <!-- ARMAS LEVES -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Armas Leves</span>
-                    </div>
+                        <!-- ARMAS LEVES -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Armas Leves</span>
+                        </div>
 
-                    <!-- FURTIVIDADE -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Furtividade</span>
-                    </div>
+                        <!-- FURTIVIDADE -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Furtividade</span>
+                        </div>
 
-                    <!-- HACKING -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Hacking</span>
-                    </div>
+                        <!-- HACKING -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Hacking</span>
+                        </div>
 
-                    <!-- ENGENHARIA -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Engenharia</span>
-                    </div>
+                        <!-- ENGENHARIA -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Engenharia</span>
+                        </div>
 
-                    <!-- LÁBIA -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Lábia</span>
-                    </div>
+                        <!-- LÁBIA -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Lábia</span>
+                        </div>
 
-                    <!-- MEDICINA -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Medicina</span>
-                    </div>
+                        <!-- MEDICINA -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Medicina</span>
+                        </div>
 
-                    <!-- INVESTIGAR -->
-                    <div class="linha-caract">
-                        <button type="button" class="btn btn-pts">&lt;</button>
-                        <span class="ptsCaracterizacao">00</span>
-                        <button type="button" class="btn btn-pts">&gt;</button>
-                        <span class="nome-caract">Investigar</span>
+                        <!-- INVESTIGAR -->
+                        <div class="linha-caract">
+                            <button type="button" class="btn btn-pts">&lt;</button>
+                            <span class="ptsCaracterizacao">00</span>
+                            <button type="button" class="btn btn-pts">&gt;</button>
+                            <span class="nome-caract">Investigar</span>
+                        </div>
+                        
                     </div>
                     
+                    
+                    <button type="submit" class="btn-main">
+                        começar aventura
+                    </button>
                 </div>
-                
-                <button type="submit" class="btn-main">
-                    começar aventura
-                </button>
-            </div>
 
+                
+            </form>
             <div class="ocultar">
                 <div class="borda-neon icone-habilidade"></div>
                 <div class="descricao-hab">
                     <p >
-                    Quanto maior a Força Bruta, maior o dano em combate físico e melhor
-                    o uso de armas pesadas ou ações que exigem força. Skills afetadas:
-                    Corpo a Corpo, Armas Pesadas, capacidade de carga.<p>
+                    Quanto maior o nível em Corpo a Corpo, maior o dano em combate próximo
+                    e melhor a eficiência em ataques físicos diretos.<br><br>
+                    Skills afetadas:<br>
+                    Desarmado, Uma mão, Duas mãos<p>
                 <div>
             </div>
-
-        </form>
-
+        </div>
         <script src="public/js/main-menu/script.js"></script>
 
     </main>

@@ -45,6 +45,7 @@
                             name="personagem"
                             placeholder="Nome do personagem"
                             maxlength="20"
+                            autocomplete="off"
                             required>
                         </div>
                     </div>
@@ -113,9 +114,11 @@
                         </div>
 
                     </div>
+                    
+                    <button type="submit" class="btn-main">
+                        Continuar
+                    </button>
                 </div>
-
-                
             </form>
 
             <div class="ocultar">
