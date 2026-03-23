@@ -51,11 +51,17 @@
     text-align:center;
 }
 
+.organizador-hab{
+        display:flex;
+    flex-direction: row;
+}
 #pontosRestantes{
     margin-bottom:10px;
 }
 
 #formPersonagem{
     display:flex;
-    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
 }
