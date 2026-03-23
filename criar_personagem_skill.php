@@ -114,10 +114,15 @@
                         
                     </div>
                     
-                    
-                    <button type="submit" class="btn-main">
-                        começar aventura
-                    </button>
+                    <div class="organizador-hab">
+                        <button type="submit" class="btn-main">
+                            começar
+                        </button>
+
+                        <a href="criar_personagem_hab.php" class="btn-main">
+                            Voltar
+                        </a>
+                    </div>
                 </div>
 
                 
