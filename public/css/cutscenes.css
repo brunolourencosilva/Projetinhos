@@ -1,18 +1,25 @@
 
 .img-cutscene{    
-    width: 93vh;
-    height: 50vh;
+    width: 520px;
+    height: 286px;
 }
 
 .organizador-cutscene{
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center;     /* vertical */
-height: 50vh;
+    height: 46vh;
+    margin-bottom: 5vh;
 }
+
+.container-dialogo{
+    height: 34vh;
+    padding: 4vh;
+    width: 100%;
+}
+
 #cutscene-inicio{
     position:absolute;
-
     background-image:url("../img/cutscenes/cenas-placeholder2.jpg");
     background-position:center;
     background-size:contain;
