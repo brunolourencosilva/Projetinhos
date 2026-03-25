@@ -13,13 +13,19 @@ html{
 /* Corpo */
 body{
     min-height:100vh;
-    background:var(--bg-principal);
+    background-color: var(--bg-secundario);
 
     display:flex;
     align-items:center;
     justify-content:center;
 
     font-family:var(--fonte-terminal);
+
+    border:5px solid var(--cor-principal);
+    box-shadow:
+    0 0 5px var(--cor-principal),
+    0 0 10px var(--cor-principal),
+    inset 0 0 5px var(--cor-principal);
 }
 
 

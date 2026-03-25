@@ -43,7 +43,7 @@
                         </a>
                     </div>
 
-                    <div><a id="btnMudarPagina" href="criar_personagem_hab.php">
+                    <div><a id="btnMudarPagina" href="jogo.php">
                         Nova Aventura
                     </a></div>
                     

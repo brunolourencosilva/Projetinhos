@@ -14,31 +14,24 @@
 <link rel="stylesheet" href="public/css/components.css">
 <link rel="stylesheet" href="public/css/paginas/menu.css">
 <link rel="stylesheet" href="public/css/paginas/personagem.css">
+<link rel="stylesheet" href="public/css/cutscenes.css">
 
 </head>
+    <body>
 
-<body>
+        <div class="container_main moldura">
 
-<div class="container_main">
+            <main class="menu_main">
 
-    <!-- Moldura -->
-    <div class="moldura"></div>
+                <div class="organizador-cutscene"> 
+                    <div class="img-cutscene borda-neon" id="cutscene-inicio"></div>
+                </div>
+                <div>
+                </div>
 
-    <main class="menu_main">
-
-        <div class="container_index">
-
-            <!-- Título -->
-            <div class="titulo">
-                <h1>Tela de começo de jogo</h1>
-                <p>ainda em construção</p>
-            </div>
+            </main>
 
         </div>
 
-    </main>
-
-</div>
-
-</body>
+    </body>
 </html>

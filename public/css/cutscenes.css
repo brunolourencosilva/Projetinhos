@@ -1,0 +1,21 @@
+
+.img-cutscene{    
+    width: 93vh;
+    height: 50vh;
+}
+
+.organizador-cutscene{
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+height: 50vh;
+}
+#cutscene-inicio{
+    position:absolute;
+
+    background-image:url("../img/cutscenes/cenas-placeholder2.jpg");
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-color: var(--bg-secundario);
+}
