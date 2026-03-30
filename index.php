@@ -43,7 +43,7 @@
                         </a>
                     </div>
 
-                    <div><a id="btnMudarPagina" href="jogo.php">
+                    <div><a id="btnMudarPagina" href="cenas_dialogo.php">
                         Nova Aventura
                     </a></div>
                     
