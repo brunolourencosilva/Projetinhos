@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="public/css/components.css">
 <link rel="stylesheet" href="public/css/paginas/menu.css">
 <link rel="stylesheet" href="public/css/paginas/personagem.css">
+<link rel="shortcut icon" href="public/img/simbolos/simbolo-radioativo.jpg" type="image/x-icon">
 
 </head>
 
