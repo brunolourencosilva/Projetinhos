@@ -18,7 +18,7 @@
 
 </head>
 
-<body class="borda-moldura">
+<body>
 
 <div class="container_main">
 

@@ -12,13 +12,6 @@
     0 0 10px var(--cor-principal),
     inset 0 0 5px var(--cor-principal);
 }
-.borda-moldura{
-    border:10px solid var(--cor-principal);
-    box-shadow:
-    0 0 5px var(--cor-principal),
-    0 0 10px var(--cor-principal),
-    inset 0 0 5px var(--cor-principal);
-}
 
 .icone-habilidade{
     background-image:url("../img/icones/icone-placeholder.jpg");
