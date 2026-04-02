@@ -1,6 +1,7 @@
 :root{
     --cor-principal: #00ff88;
     --cor-secundaria:  #2cbd68;
+    --cor-borda: #575757;
     --bg-principal: #171717;
     --bg-secundario: #000;
     --fonte-terminal: "Courier New", monospace;

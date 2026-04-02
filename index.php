@@ -18,12 +18,9 @@
 
 </head>
 
-<body>
+<body class="borda-moldura">
 
 <div class="container_main">
-
-    <!-- Moldura -->
-    <div class="moldura"></div>
 
     <main class="menu_main" > 
 

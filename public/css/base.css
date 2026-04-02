@@ -21,12 +21,6 @@ body{
 
     font-family:var(--fonte-terminal);
 
-    border:5px solid var(--cor-principal);
-    box-shadow:
-    0 0 5px var(--cor-principal),
-    0 0 10px var(--cor-principal),
-    inset 0 0 5px var(--cor-principal);
-
     position: relative;
     overflow: hidden;
 }
