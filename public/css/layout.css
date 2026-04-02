@@ -22,12 +22,6 @@
     z-index: 2;
 }
 
-.container-menu{
-    width:100%;
-    height:auto;
-    align-items: center;
-}
-
 .box-opcoes{
     display: flex;
     flex-direction: column;

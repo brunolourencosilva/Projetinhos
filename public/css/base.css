@@ -26,11 +26,37 @@ body{
     0 0 5px var(--cor-principal),
     0 0 10px var(--cor-principal),
     inset 0 0 5px var(--cor-principal);
+
+    position: relative;
+    overflow: hidden;
+}
+
+/* Gradiente borrado de baixo pra cima */
+body::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to top,
+        transparent 0%,
+        var(--bg-secundario) 40%,
+        var(--bg-secundario) 40%,
+        var(--cor-principal) 40%,
+        transparent 100%
+    );
+
+    filter: blur(300px);
+    opacity: 0.6;
+
+    z-index: -1;
 }
 
 
 /* Textos */
 h1{
+    margin-top: 10vw;
+    margin-bottom: 1vw;
     color:var(--cor-principal);
     font-size:clamp(2rem, 5vw, 3.5rem);
 

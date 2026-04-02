@@ -28,7 +28,7 @@
 .container-menu{
     display:inline-block;
     padding:30px;
-    width: clamp(250px, 25vw, 400px);
+    width: clamp(25px, 10vw, 400px);
 }
 
 /* Terminal */
